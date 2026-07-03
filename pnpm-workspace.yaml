@@ -1,0 +1,6 @@
+allowBuilds:
+  core-js: false
+  core-js-pure: false
+
+overrides:
+  domutils@1.7.0>domelementtype: 1.1.1

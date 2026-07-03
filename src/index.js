@@ -12,7 +12,7 @@ import { APIProvider } from './context/APIProvider';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   // <React.StrictMode>
-    <BrowserRouter>
+    <BrowserRouter basename='/tool'>
     <AuthProvider>
       {/* <APIProvider> */}
           <ContainerHeightProvider>

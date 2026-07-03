@@ -16,7 +16,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build",
+    "build": "PUBLIC_URL=/tool react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "serve": "serve -s build"
@@ -26,6 +26,11 @@
       "react-app",
       "react-app/jest"
     ]
+  },
+  "pnpm": {
+    "overrides": {
+      "domutils@1.7.0>domelementtype": "1.1.1"
+    }
   },
   "browserslist": {
     "production": [
